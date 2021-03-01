@@ -10,6 +10,7 @@ class Chicken extends Animal
         // Unique number chicken
         $this->idAnimal = parent::$id++;
     }
+
     //Number of eggs from one chicken
     public function getProduct(){
         return rand(0,1);

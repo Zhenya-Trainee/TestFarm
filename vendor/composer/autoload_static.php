@@ -20,16 +20,16 @@ class ComposerStaticInit89e7696e2f7fd753f013d707f97907ac
     public static $prefixDirsPsr4 = array (
         'farm\\' => 
         array (
-            0 => __DIR__ . '/..' . '/farm',
+            0 => __DIR__ . '/..',
         ),
         'app\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/app',
+            0 => __DIR__ . '/../..',
         ),
     );
 
     public static $classMap = array (
-        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..',
     );
 
     public static function getInitializer(ClassLoader $loader)
