@@ -1,7 +1,7 @@
 <?php
 
-use app\Farm;
-use app\CreateAnimal\{CreateChicken,CreateCow};
+use app\CreateAnimal\CreateChicken;
+use app\CreateAnimal\CreateCow;
 
 
 require_once __DIR__ . '/vendor/autoload.php';
